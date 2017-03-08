@@ -1,11 +1,11 @@
 #
 # Nginx Dockerfile
 #
-# https://github.com/dockerfile/nginx
+# https://github.com/iamfaith/nginx
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM daocloud.io/iamfaith/ubuntu
 
 # Install Nginx.
 RUN \
